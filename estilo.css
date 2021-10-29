@@ -1,0 +1,123 @@
+.container{
+    margin: 0 auto;
+    width: 960px;
+    float: right;
+    padding:10px;
+
+}
+
+.bordapd{
+    border: solid;
+    border-width: 2px;
+    padding: 10px;
+    border-color: rgb(114,47,55);
+
+}
+body{
+    background: url(chinese_dragon.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+
+}
+.banner{
+    background-color: rgb(151, 240, 240);
+    margin: auto; 
+    background-size: cover;
+    width: 960px;
+    height: 200px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(0, 16, 59);
+}
+
+.place {
+    border-color: #CCC #999 #999 #CCC;    
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color:rgb(255, 142, 142);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    
+}
+
+.place h2, h3, h4, h5, h6, h7, h8, h9, h10, h11{
+    border-bottom: 5px dotted #194f9f;
+    margin: 0;
+    
+    
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border: 1px double black;
+    float: left;
+    margin: 50px;
+    padding: 1px;
+}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    font-size: 12;
+    text-align: center;
+}
+
+.places{
+    float: left;
+    width: 660px;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: rgb(114,47,55); /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+  
+  .icon-bar a {
+    float: right; /* Float links side by side */
+    text-align:center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 7px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: rgb(255, 142, 142); /* White text color */
+    font-size: 24px; /* Increased font size */
+    border:solid;
+    border-width: 2px;
+    border-color: rgb(255, 142, 142);
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  
+  .active {
+    background-color: black; /* Add an active/current color */
+  }
+  .icon-bar b {
+    float: left; /* Float links side by side */
+    text-align:center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    color: rgb(255, 142, 142); /* White text color */
+    font-size: 40px; /* Increased font size */
+    border:solid;
+    border-width: 3px;
+    padding: 10px;
+    border-color: rgb(255, 142, 142);
+  }
+  .icon-bar c {
+      padding-left: 5px;
+    float: left; /* Float links side by side */
+    text-align:center; /* Center-align text */
+    width: 15%; /* Equal width (5 icons with 20% width each = 100%) */
+    color: rgb(255, 142, 142); /* White text color */
+    font-size: 15px; /* Increased font size */
+    border:solid;
+    border-width: 2px;
+    padding: 5px;
+    border-color: rgb(255, 142, 142);
+  }
